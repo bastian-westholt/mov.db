@@ -173,23 +173,25 @@ Landing page generated: _static/index.html
 
 ```
 mov.db/
-├── __init__.py              # Package marker
 ├── main.py                  # Main CLI application
-├── movies_storage_sql.py    # SQLite storage layer
-├── .gitignore               # Git ignore rules
 ├── README.md                # This file
 ├── requirements.txt         # Python dependencies
+├── .gitignore               # Git ignore rules
+│
+├── movie_storage/
+│   ├── __init__.py
+│   ├── movies_storage_sql.py    # SQLite storage layer
+│   └── movies_storage.py        # Legacy JSON storage
 │
 ├── data/
-│   ├── __init__.py
-│   ├── movies.db            # SQLite database
-│   ├── movies_dataset.json  # Legacy JSON data
+│   ├── movies.db                # SQLite database
+│   ├── movies_dataset.json      # JSON data
 │   └── movies_dataset_backup.json
 │
 └── _static/
-    ├── index_template.html  # HTML template
-    ├── style.css            # Stylesheet
-    └── index.html           # Generated landing page
+    ├── index_template.html      # HTML template
+    ├── style.css                # Stylesheet
+    └── index.html               # Generated landing page
 ```
 
 **Note:** Files like `.env`, `backups/`, `CLAUDE.md`, `REPORT.html`, `sanity_check.py`, and `movies_storage.py` are gitignored.
