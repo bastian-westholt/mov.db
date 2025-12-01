@@ -174,9 +174,8 @@ Landing page generated: _static/index.html
 ```
 mov.db/
 ├── __init__.py              # Package marker
-├── movies.py                # Main CLI application
+├── main.py                  # Main CLI application
 ├── movies_storage_sql.py    # SQLite storage layer
-├── .env.example             # Environment template (copy to .env)
 ├── .gitignore               # Git ignore rules
 ├── README.md                # This file
 ├── requirements.txt         # Python dependencies
