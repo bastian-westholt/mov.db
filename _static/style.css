@@ -54,7 +54,7 @@ body {
 
 .movie-poster {
     filter: grayscale(100%) sepia(100%) hue-rotate(0deg) saturate(5);
-    transition: filter 0.5s ease; /* Hierher verschieben */
+    transition: filter 0.5s ease;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     width: 128px;
     height: 193px;
