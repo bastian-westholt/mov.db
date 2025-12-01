@@ -11,4 +11,4 @@ sanity_check.py
 CLAUDE.md
 
 # Outdated data
-movies_storage.py
+movie_storage/movies_storage.py

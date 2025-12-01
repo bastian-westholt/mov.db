@@ -9,7 +9,7 @@ movie data and provides a menu-driven interface for user interaction.
 """
 import os.path
 
-import movies_storage_sql as ms
+from movie_storage import movies_storage_sql as ms
 import json
 import sys
 import random as rand
