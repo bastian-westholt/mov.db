@@ -1,0 +1,14 @@
+# Directories
+backups/
+.claude/
+
+# Environment variables
+.env
+
+# Other data
+REPORT.html
+sanity_check.py
+CLAUDE.md
+
+# Outdated data
+movies_storage.py
