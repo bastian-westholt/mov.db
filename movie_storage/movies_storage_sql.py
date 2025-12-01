@@ -5,7 +5,7 @@ import requests
 
 load_dotenv()
 OMDB_KEY = os.getenv('OMDB_API_KEY')
-DB_URL = 'sqlite:///data/movies.db/'
+DB_URL = 'sqlite:///data/movies.db'
 
 engine = create_engine(DB_URL, echo=False)
 
